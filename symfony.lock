@@ -85,6 +85,9 @@
     "egulias/email-validator": {
         "version": "3.1.1"
     },
+    "eleirbag89/mastodonbotphp": {
+        "version": "v0.1"
+    },
     "friendsofphp/proxy-manager-lts": {
         "version": "v1.0.5"
     },

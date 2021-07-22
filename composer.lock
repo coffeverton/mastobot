@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "05166d01e6bf577938523c038634225a",
+    "content-hash": "05fb0c4b8658c38b605549392490d3ee",
     "packages": [
         {
             "name": "composer/package-versions-deprecated",
@@ -1503,6 +1503,46 @@
                 }
             ],
             "time": "2021-04-01T18:37:14+00:00"
+        },
+        {
+            "name": "eleirbag89/mastodonbotphp",
+            "version": "v0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Eleirbag89/MastodonBotPHP.git",
+                "reference": "388e6b1be47a5ef90db42ae7eaf7aba31a247db5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Eleirbag89/MastodonBotPHP/zipball/388e6b1be47a5ef90db42ae7eaf7aba31a247db5",
+                "reference": "388e6b1be47a5ef90db42ae7eaf7aba31a247db5",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.0"
+            },
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "Mastodon.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Gabriele Grillo",
+                    "email": "gabry.grillo@alice.it"
+                }
+            ],
+            "description": "A very simple PHP Mastodon API for sending statuses",
+            "support": {
+                "issues": "https://github.com/Eleirbag89/MastodonBotPHP/issues",
+                "source": "https://github.com/Eleirbag89/MastodonBotPHP/tree/v0.1"
+            },
+            "time": "2020-04-10T20:15:33+00:00"
         },
         {
             "name": "friendsofphp/proxy-manager-lts",
